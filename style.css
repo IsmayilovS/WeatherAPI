@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/weatheeer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#weatherCondition{
+    width: 100px;
+    height: 100px;
+}
+.container {
+    background-color: blue;
+    display: flex;
+    gap: 20px;
+}
+img{
+    display: none;
+}
